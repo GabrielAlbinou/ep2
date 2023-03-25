@@ -1,0 +1,152 @@
+
+header {
+    text-align: center;   /*essa tag serva para alinhar o texto*/
+    padding: 10px;   /*é usado para o prenchimento ou uma melhor organização*/
+    background-color:rgb(32, 29, 48,);   /*server para mudar a cor de fundo*/
+    margin: -8px -8px 0px -8px;   /*permite definir o tamanho da margem de um elemento para outro*/
+  }
+  nav a{
+    color: white;   /*para dar cor a algo*/
+    padding:7px;
+    transition:2s;   /*serve para criar uma transição(animação)*/
+    font-size:24px;   /*muda o tamanho da font*/
+    text-decoration: none;   /*caso queira mudar a decoração do texto ou tirar*/
+    font-weight: bold;   /*peso da fonte de um elemento de texto, no caso bold é para negrito*/
+  }
+  
+  nav ul {
+    list-style: none;   /*para escolher um estilo de lista*/
+    margin: 0;
+    padding: 0;
+    display: flex;   /*pode ser usada para alterar a exibição padrão de um elemento*/
+    justify-content: center;   /*escolher onde o conteúdo desejado fica*/
+  }
+  
+  nav li {
+    display: inline;
+    margin: auto;
+  }
+  
+  nav a:hover{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+  }
+  h1{
+    color: white;
+  }    
+  p{
+    font-size: 24px;
+    text-align: justify;
+    color: white;
+
+  }
+  main {
+    max-width: 900px;   /*definir a largura maxima desejada*/
+    margin: auto;
+    text-align: justify;
+  }
+  .foto{
+    width: 600px;   /*definir a largura que quiser*/
+  }
+footer{
+  background-color:rgb(32, 29, 48);
+  
+}
+.fundoG{   /*dessa parte para baixo são todos os fundo*/
+    background-image: url("imagens/gabriel.jpeg");   /*colocar uma imagem de fundo*/
+    background-color: #cccccc;
+    background-repeat: no-repeat;   /*escolher se a imagem deve repetir ou não*/
+    background-position: center;   /*posição do fundo*/
+    background-size: cover;   /*o tamanho do background no caso aqui e cobrir tudo*/
+}
+.fundoM{
+  background-image: url("imagens/max.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.fundoB{
+  background-image: url("imagens/ber.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.fundoV{
+  background-image: url("imagens/vito.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.fundoC{
+  background-image: url("imagens/cami.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.fundoP{
+  background-image: url("imagens/princi.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+main{
+  background-color: rgba(0, 0,0, 0.7);
+  padding: 1px 10px 1px 10px;
+}
+li{
+  display: inline;
+  margin: auto;
+}
+ul a{
+  text-decoration: none;
+  font-size:18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul a:hover{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+h2{
+  color: white;
+}
+figcaption{
+  color:white;
+}
+.logo{
+  width:100px;
+  border-radius: 50%;   /*serve para definir os raios dos cantos da borda então quanto maior mais redonda*/
+  transition: 2s;
+}
+
+div a :hover{
+  width: 120px;
+  border-radius: 50%;
+  transition: 2s;
+
+}
+.creditos{
+
+color: darkcyan;
+}
+.imagem{
+  width: 600px;
+  height: 400px;
+}
+h3{
+  color: white;
+}
+.calinha{
+ color: white;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 27px;
+}
